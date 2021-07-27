@@ -5,24 +5,24 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
       <img
         src="/inovador.svg"
-        className="fixed w-screen absolute bg-cover"
+        className="fixed absolute w-screen bg-cover"
       />
       <div className="absolute flex flex-row justify-between w-full">
         <div className="w-40">
           <img src="/logo.svg" />
         </div>
         <div className="pt-5 pr-5">
-          <ul className="right-0 flex flex-row text-xl text-center text-white w-full space-x-3 text-center place-items-center">
-            <li href="#" className="bg-green-900 rounded-full p-5">
+          <ul className="right-0 flex flex-row w-full space-x-3 text-xl text-center text-white place-items-center">
+            <li href="#" className="p-5 bg-green-900 rounded-full">
               <a className="">INÍCIO</a>
             </li>
-            <li href="#" className="bg-green-900 rounded-full p-5">
+            <li href="#" className="p-5 bg-green-900 rounded-full">
               <a className="">ESTRUTURA</a>
             </li>
-            <li href="#" className="bg-green-900 rounded-full p-5">
+            <li href="#" className="p-5 bg-green-900 rounded-full">
               <a className="">LOCALIZAÇÃO</a>
             </li>
-            <li href="#" className="bg-green-900 rounded-full p-5">
+            <li href="#" className="p-5 bg-green-900 rounded-full">
               <a className="">CONTATOS</a>
             </li>
           </ul>
@@ -34,8 +34,7 @@ const Home = () => (
         <h1>E TECNOLÓGICO</h1>
       </div>
       <div className="absolute bottom-0 place-items-center">
-        <div className="flex flex-row leading-loose tracking-widest text-white
-        bg-green-900 divide-x divide-gray divide-opacity-25 rounded-xl space-x-5 text-base text-center">
+        <div className="flex flex-row space-x-5 text-base leading-loose tracking-widest text-center text-white bg-green-900 divide-x divide-gray divide-opacity-25 rounded-xl">
           <p className="">SEDE EMPRESARIAL</p>
           <p className="">ALTA RENTABILIDADEL</p>
           <p className="">VALORIZAÇÃO IMOBILIÁRIA</p>
@@ -44,7 +43,7 @@ const Home = () => (
       </div>
     </section>
 
-    <section className="absolute flex flex-row w-full h-screen px-10 h-screen bg-gradient-to-r from-gray-100 to-gray-200 items-center">
+    <section className="absolute flex flex-row items-center w-full h-screen px-10 bg-gradient-to-r from-gray-100 to-gray-200">
       <div className="px-10">
         <img src="/circulo.svg" className="" />
       </div>
