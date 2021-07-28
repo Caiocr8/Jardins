@@ -13,18 +13,26 @@ const Home = () => (
         </div>
         <div className="pt-5 pr-5">
           <ul className="right-0 flex flex-row w-full space-x-3 text-xl text-center text-white place-items-center">
-            <li href="#" className="p-5 bg-green-900 rounded-full">
-              <a className="">INÍCIO</a>
-            </li>
-            <li href="#" className="p-5 bg-green-900 rounded-full">
-              <a className="">ESTRUTURA</a>
-            </li>
-            <li href="#" className="p-5 bg-green-900 rounded-full">
-              <a className="">LOCALIZAÇÃO</a>
-            </li>
-            <li href="#" className="p-5 bg-green-900 rounded-full">
-              <a className="">CONTATOS</a>
-            </li>
+            <a href="#">
+              <li className="p-5 bg-green-900 rounded-full">
+                INÍCIO
+              </li>
+            </a>
+            <a href="#">
+              <li  className="p-5 bg-green-900 rounded-full">
+                ESTRUTURA
+              </li>
+            </a>
+            <a>
+              <li href="#" className="p-5 bg-green-900 rounded-full">
+                LOCALIZAÇÃO
+              </li>
+            </a>
+            <a href="#">
+              <li  className="p-5 bg-green-900 rounded-full">
+                CONTATOS
+              </li>
+            </a>
           </ul>
         </div>
       </div>
