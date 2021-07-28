@@ -23,8 +23,8 @@ const Home = () => (
                 ESTRUTURA
               </li>
             </a>
-            <a>
-              <li href="#" className="p-5 bg-green-900 rounded-full">
+            <a href="#">
+              <li className="p-5 bg-green-900 rounded-full">
                 LOCALIZAÇÃO
               </li>
             </a>
